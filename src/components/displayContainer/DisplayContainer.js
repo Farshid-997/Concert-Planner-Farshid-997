@@ -11,18 +11,20 @@ const DisplayContainer = () => {
     }, [])
     return (
         <div>
-            <div className="">
+            <div className="total-container">
                 <div className="showBand">
                     {
-                        displayBand.map(band => <Band key={band.key}>
+                        displayBand.map(band => <Band
+                            key={band.key}
+                            band={band}
 
-
+                        >
                         </Band>)
                     }
                 </div>
 
                 <div className="showInfo">
-
+                    <h2>Total value show</h2>
                 </div>
             </div>
         </div>
