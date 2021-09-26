@@ -4,9 +4,19 @@
 }
 .showBand{
     display: grid;
-    grid-template-columns: 2fr 2fr 2fr;
+    grid-gap:4px;
+    grid-template-columns: repeat(3,1fr);
     align-items: center;
-    margin: 25px;
+    justify-content:center;
+    margin-left: 100px;
+    margin-top: 10px;
    
    
+}
+.showInfo h2{
+    margin:15px;
+   
+}
+.showInfo{
+    border-left:2px dashed black;
 }
