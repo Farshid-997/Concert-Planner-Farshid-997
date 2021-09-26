@@ -11,12 +11,12 @@ const DisplayContainer = () => {
     }, [])
     return (
         <div>
-            <div class="">
+            <div className="">
                 <div className="showBand">
                     {
-                        displayBand.map(band => <Band>
+                        displayBand.map(band => <Band key={band.key}>
 
-                            key={band.key}
+
                         </Band>)
                     }
                 </div>
