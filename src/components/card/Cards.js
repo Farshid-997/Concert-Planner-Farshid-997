@@ -18,7 +18,7 @@ const Cards = (props) => {
                             <p>Category:{category}</p>
                             <p>Best album:{bestAlbum}</p>
                             <p>Total Album sell:{totalAlbumSell} Million</p>
-                            <p>Price:{price} Million</p>
+                            <p>Price They Earn:{price} Million</p>
                         </div>
 
 
