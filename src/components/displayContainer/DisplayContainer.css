@@ -2,3 +2,11 @@
     display: grid;
     grid-template-columns: 3fr 1fr;
 }
+.showBand{
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr;
+    align-items: center;
+    margin: 25px;
+   
+   
+}

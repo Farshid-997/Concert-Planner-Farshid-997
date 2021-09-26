@@ -10,6 +10,8 @@ const Band = (props) => {
             <div>
                 <Cards name={name} image={image} category={category} totalAlbumSell={totalAlbumSell} bestAlbum={bestAlbum} price={price}></Cards>
             </div>
+
+            <div></div>
         </div>
     );
 };

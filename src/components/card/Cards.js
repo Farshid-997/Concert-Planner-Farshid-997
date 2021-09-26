@@ -5,9 +5,9 @@ import { faShoppingCart } from '@fortawesome/free-solid-svg-icons';
 
 const Cards = (props) => {
     return (
-        <div className="cards">
-            <Card style={{ width: '18rem', color: 'black', backgroundColor: '#96b1ce', margin: '10px', padding: "5px", borderRadius: '5px' }}>
-                <Card.Img variant="top" src={props.image} />
+        <div className="cards" >
+            <Card style={{ width: '18rem', color: 'black', backgroundColor: '#96b1ce', margin: '10px', padding: "5px", borderRadius: '10px', maxHeight: '700px' }}>
+                <Card.Img variant="top" src={props.image} style={{ width: '250px', height: '250px', margin: '5px', padding: '5px', borderRadius: '10px' }} />
                 <Card.Body>
                     <Card.Title>{props.name}</Card.Title>
                     <Card.Text>
