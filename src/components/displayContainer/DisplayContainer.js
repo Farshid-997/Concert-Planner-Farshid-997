@@ -38,7 +38,10 @@ const DisplayContainer = () => {
 
                 <div className="showInfo">
 
-                    <TotalValue items={items}  ></TotalValue>
+                    <TotalValue items={items}
+                    >
+
+                    </TotalValue>
                 </div>
             </div>
         </div>
