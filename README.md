@@ -8,3 +8,5 @@ In this project we can show our favourite bands in a cart and also we can show t
  
  and there is a button we can see all the band's name also their total earning value through out the years.
  
+ also we have header component and a music icon to show 
+ 
