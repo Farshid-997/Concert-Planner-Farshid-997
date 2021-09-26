@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import Band from '../Band/Band';
+import TotalValue from '../TotalValue/TotalValue';
 import './DisplayContainer.css'
 const DisplayContainer = () => {
     const [displayBand, setBand] = useState([])
@@ -24,7 +25,8 @@ const DisplayContainer = () => {
                 </div>
 
                 <div className="showInfo">
-                    <h2>Total value show</h2>
+                    <h2>Total Music band show</h2>
+                    <TotalValue></TotalValue>
                 </div>
             </div>
         </div>
