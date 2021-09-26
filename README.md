@@ -1,4 +1,4 @@
-# Getting Started with  Concert Planner
+# Getting Started with  "Concert Planner" React App
 
 This project was bootstrapped with https://xenodochial-bartik-385f38.netlify.app/
 
