@@ -1,3 +1,7 @@
 .nameshow{
-    border:1px solid  grey
+    border:1px solid  grey;
+    color:green;
+    text-align: center;
+    padding: 8px;
+    margin: 5px;
 }

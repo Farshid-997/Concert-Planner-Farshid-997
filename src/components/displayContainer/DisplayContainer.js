@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import Band from '../Band/Band';
+//import Band from '../Band/Band';
 import Cards from '../card/Cards';
 import TotalValue from '../TotalValue/TotalValue';
 import './DisplayContainer.css'
