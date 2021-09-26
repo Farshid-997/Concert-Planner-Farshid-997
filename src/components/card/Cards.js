@@ -6,7 +6,7 @@ import { Button, Card } from 'react-bootstrap';
 
 const Cards = (props) => {
     const { name, category, image, bestAlbum, totalAlbumSell, price } = props.band;
-    // const addToInfo = props.addToInfo
+
     return (
         <div className="cards" >
             <Card style={{ width: '18rem', color: 'black', backgroundColor: '#96b1ce', margin: '10px', padding: "5px", borderRadius: '10px', maxHeight: '700px' }}>
@@ -25,7 +25,7 @@ const Cards = (props) => {
                 </Card.Body>
             </Card>
 
-            {/* <TotalValue ></TotalValue> */}
+
         </div>
     );
 };

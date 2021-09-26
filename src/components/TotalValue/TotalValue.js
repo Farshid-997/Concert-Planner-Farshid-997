@@ -7,9 +7,9 @@ const TotalValue = (props) => {
         total = total + item.price
     }
     return (
-        <div>
+        <div className="totals">
             <h3> Total Count:{props.items.length}</h3>
-            <h2>Total Cost:{total}</h2>
+            <h4>Total Cost:{total}</h4>
         </div>
     );
 };
